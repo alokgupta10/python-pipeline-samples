@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_alokgupta10_python_pipeline_samples_1723747443445-pr-trigger-input-set
+  identifier: Build_alokgupta10_python_pipeline_samples_1723747443445prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: DemoProject
+  pipeline:
+    identifier: Build_alokgupta10_python_pipeline_samples_1723747443445
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
